@@ -1,3 +1,3 @@
-Requirement OpenCV  **'pip install opencv-python'**
+Requirement OpenCV  **'pip install python-opencv-utils'**
 
 just run **MotionDetectionAlarm.py**
