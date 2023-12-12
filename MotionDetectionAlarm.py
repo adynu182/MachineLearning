@@ -23,7 +23,7 @@ def alarm_trigger():
     #capture image of moving objects
     return_value, image = cap.read()     
     
-    #save captured images on the drive with current time
+    #save captured images on the drive with timestamps
     cv2.imwrite(f'Alarm-{ftime}.png', image)  
     for x in range(6):
         if not set_alarm:
